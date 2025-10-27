@@ -8,7 +8,7 @@ description: "Learn how to transform your S3 bucket into a lightning-fast, searc
 summary: "Transform your S3 bucket into a lightning-fast, searchable data lake using Snowflake's Directory Tables, event-driven processing, and a beautiful Streamlit interface."
 
 tags: ["AWS", "S3", "Snowflake", "Streamlit", "Data Engineering", "Search"]
-categories: ["Tutorials", "Cloud Computing"]
+categories: ["Open Source", "Cloud Computing"]
 author: "nbyinfinity"
 
 featuredImagePreview: "/images/s3-sql-search-cover-page.png"
