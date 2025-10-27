@@ -1,8 +1,8 @@
 ---
 title: "Building a Lightning-Fast File Search Engine for AWS S3 with Snowflake and Streamlit"
 subtitle: "Transform your S3 bucket into a lightning-fast, searchable data lake"
-date: 2024-10-26T10:00:00Z
-lastmod: 2024-10-26T10:00:00Z
+date: 2025-10-26T10:00:00Z
+lastmod: 2025-10-26T10:00:00Z
 draft: false
 description: "Learn how to transform your S3 bucket into a lightning-fast, searchable data lake using Snowflake's Directory Tables, event-driven processing, and Streamlit."
 summary: "Transform your S3 bucket into a lightning-fast, searchable data lake using Snowflake's Directory Tables, event-driven processing, and a beautiful Streamlit interface."
