@@ -81,7 +81,7 @@ This blog and its content are licensed under the MIT License. See individual pos
 ## 📧 Contact
 
 - **GitHub**: [@nbyinfinity](https://github.com/nbyinfinity)
-- **Blog**: [nbyinfinity.github.io](https://nbyinfinity.github.io)
+- **Website**: [nbyinfinity.dev](https://nbyinfinity.dev)
 
 ---
 
