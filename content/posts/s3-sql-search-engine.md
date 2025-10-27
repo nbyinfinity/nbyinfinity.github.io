@@ -82,9 +82,7 @@ The solution uses a modern, event-driven architecture with seven key components:
 ### 🔄 The Data Flow
 
 ```
-S3 Bucket → Event Notifications → SQS → Directory Table (AUTO_REFRESH)
-    ↓
-Stream (CDC) → Task (Scheduled) → FILE_METADATA Table → Streamlit App
+S3 Bucket → Event Notifications → SQS → Directory Table (AUTO_REFRESH) -> Stream (CDC) → Task (Scheduled) → FILE_METADATA Table → Streamlit App
 ```
 
 This architecture delivers:
@@ -291,16 +289,13 @@ This elegant MERGE statement:
 ### 🚀 Future Enhancements
 
 - **Row-level security**: Restrict file visibility based on user roles
-- **Advanced analytics**: Add file type statistics and storage trends
-- **Batch operations**: Bulk download capabilities for multiple files
-- **Search history**: Track and replay common search patterns
-- **API endpoints**: RESTful API for programmatic access
+
 
 ## 🏁 Getting Started
 
 The complete setup guide, scripts, and source code are available on GitHub:
 
-🔗 **[github.com/PeachSequence/s3-sql-search](https://github.com/PeachSequence/s3-sql-search)**
+🔗 **[github.com/nbyinfinity/s3-sql-search](https://github.com/nbyinfinity/s3-sql-search)**
 
 ### 📋 Prerequisites
 
@@ -312,7 +307,7 @@ The complete setup guide, scripts, and source code are available on GitHub:
 
 ```bash
 # Clone the repository
-git clone https://github.com/PeachSequence/s3-sql-search.git
+git clone https://github.com/nbyinfinity/s3-sql-search.git
 cd s3-sql-search
 
 # Follow the setup guides in order:
@@ -354,7 +349,7 @@ If you're struggling with S3 file search at scale, give S3-SQL-Search a try. Sta
 
 ## 📚 Resources
 
-- **GitHub Repository**: [github.com/PeachSequence/s3-sql-search](https://github.com/PeachSequence/s3-sql-search)
+- **GitHub Repository**: [github.com/PeachSequence/s3-sql-search](https://github.com/nbyinfinity/s3-sql-search)
 - **Documentation**: Complete setup guides and user documentation in the `docs/` folder
 - **License**: MIT License - free for commercial and personal use
 
@@ -372,4 +367,4 @@ If you're struggling with S3 file search at scale, give S3-SQL-Search a try. Sta
 
 ---
 
-*Written by [Your Name] | Published on [Date]*
+*Written by nbyinfinity* | *Published on 26th October 2025* | *Last updated on 26th October 2025*
