@@ -9,9 +9,7 @@ summary: "Transform your S3 bucket into a lightning-fast, searchable data lake u
 
 tags: ["AWS", "S3", "Snowflake", "Streamlit", "Data Engineering", "Search"]
 categories: ["Tutorials", "Cloud Computing"]
-author: 
-  name: "nbyinfinity"
-  link: "https://github.com/nbyinfinity"
+author: "nbyinfinity"
 
 featuredImagePreview: "/images/s3-sql-search-cover-page.png"
 

@@ -9,6 +9,8 @@ defaultContentLanguage = "en"
 languageName = "English"
 # Whether to include Chinese/Japanese/Korean
 hasCJKLanguage = false
+# Disable multilingual
+disableLanguages = []
 
 # Default amount of posts in each page
 pagination = { pagerSize = 12 }
@@ -26,12 +28,6 @@ enableEmoji = true
 [taxonomies]
   tag = "tags"
   category = "categories"
-
-# Author config
-[author]
-  name = "nbyinfinity"
-  email = ""
-  link = "https://github.com/nbyinfinity"
 
 # Menu config
 [menu]
@@ -69,6 +65,9 @@ enableEmoji = true
     title = ""
 
 [params]
+  # Author configuration
+  author = "nbyinfinity"
+  
   # Site default theme ["auto", "light", "dark"]
   defaultTheme = "auto"
   # Public git repo url only then enableGitInfo is true
